@@ -1,0 +1,78 @@
+.btn {
+  background-color: #ff66d9;
+  color: #ffccf2;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 6px;
+  margin: 200px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgb(255, 102, 217, 0.5), 0 6px 6px rgb(255, 102, 217, 0.5),  0 0 100px -10px #ff66d9;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+body {
+  background-color: #13001a;
+  color: #ffccf2;
+}
+
+.header_flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.nav_flex {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2em;
+  padding: 0;
+  list-style: none;
+}
+
+.nav_flex li {
+  text-decoration: none;
+}
+
+.nav_flex li a {
+  font-size: 1em;
+  color: #ffccf2;
+  text-decoration: none;
+  transition: color 0.3s;
+  letter-spacing: -0.05em;
+}
+.header_line {
+  border: 1px solid #ffccf2;
+  padding-top: 1.5em;
+}
+
+.header_sun {
+  color: #ffccf2;
+  width: 1rem;
+  height: 1rem;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+.nav_flex li a:hover {
+  color: #ff66d9;
+}

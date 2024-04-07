@@ -1,0 +1,100 @@
+:root {
+  --clr-dark: #08000C;
+  --clr-light: #ffccff;
+
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+}
+
+button {
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  color: inherit;
+}
+
+@media (max-width: 376px) {
+  header {
+    justify-content: center;
+  }
+  h1 {
+  font-size: 3rem;
+  }
+  .globe_one {
+    top: 140px;
+    left: -150px;
+  }
+  .globe_two {
+    top: 400px;
+    right: -250px;
+  }
+  .button_area {
+    height: 42rem;
+  }
+  .pp_flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    gap: 20px;
+  }
+  #pp {
+    width: 250px;
+    height: 250px;
+  }
+  .div_rezise {
+    margin-left: -110px;
+  }
+  .main_grid {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    height: 360px
+  }
+  .grid_h3 {
+    text-align: center;
+  }
+  .grid_h4 {
+    text-align: center;
+  }
+  #iphone {
+    margin-top: 500px;
+  }
+  #iphone_pic {
+    position: absolute;
+    top: 2410px;
+  }
+  .grid_borderx {
+    height: 0; 
+  }
+  .grid_border {
+    margin-top: -50px;
+  }
+  #iphone_test {
+    margin-bottom: -100px;
+  }
+}
+
+/*   background-color: #ff00ff;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0 10px 10px rgba(255, 0, 255, 0.5), 0 6px 6px rgba(255, 0, 255, 0.5), 0 0 100px -10px #ff00ff;
+  transition: all 0.3s;
+  font-weight: bold;
+  padding: 0.5em 1em; */
